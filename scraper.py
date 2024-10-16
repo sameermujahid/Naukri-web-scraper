@@ -191,7 +191,7 @@ for category, url in job_categories.items():
     print(f"Finished scraping {category} jobs.")
 
 # Save the job data to a CSV file
-with open('finalfinal.csv', 'w', newline='', encoding='utf-8') as csvfile:
+with open('scraped_data.csv', 'w', newline='', encoding='utf-8') as csvfile:
     fieldnames = [
         "Job ID", "Job Title", "Company", "Reviews", "Location", "Experience", "Salary",
         "Posted On", "Openings", "Applications", "Job Description", "Role",
