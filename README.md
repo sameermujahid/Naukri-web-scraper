@@ -69,7 +69,11 @@ You can easily customize the job categories and the specific data fields you wan
        # Add or remove fields as needed
    ]
    ```
-
+### To customize the number of jobs:
+Adjust the number of jobs you want to scrape by modifying the function call in the script:
+ ```python
+scrape_jobs_from_category(url, 150)  # Replace 150 with your desired number of jobs
+```
 ## Acknowledgements
 
 - Thanks to the developers of [Selenium](https://www.selenium.dev/) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) for their excellent libraries that make web scraping easier.
