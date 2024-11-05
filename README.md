@@ -77,4 +77,3 @@ scrape_jobs_from_category(url, 150)  # Replace 150 with your desired number of j
 ## Acknowledgements
 
 - Thanks to the developers of [Selenium](https://www.selenium.dev/) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) for their excellent libraries that make web scraping easier.
-```
